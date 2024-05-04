@@ -5,7 +5,7 @@
 
 ## **Overview**
 
-This repository contains a streamlined workflow for processing, merging, normalizing, and analyzing data. The final step involves using Streamlit to visualize results for quicker insights.
+This repository contains a streamlined workflow for processing, merging, normalizing, and analyzing data with Large Language Model [Gemini pro]. The final step involves using Streamlit to visualize results for quicker insights.
 
 ## **Backend Process**
 
