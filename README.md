@@ -1,15 +1,53 @@
 # SEC-EDGAR_Analyis_App
 
 
-- The first task is to process the data, Go to the data_processing directory, first run 1_extra_and_zip.py, and use the zip file to run 2_merge_and_normalize.py. Do this for all tickers separately[e.g. for 3 tickers, 3 merged files]
+# Data Processing and Analysis Workflow
 
-- Put those inside documents directory in .txt format
+## **Overview**
 
-- run python load_data.py [uncomment API line, and put your gemini-pro API] (file splitting and creation of embeddings happens here)
+This repository contains a streamlined workflow for processing, merging, normalizing, and analyzing data. The final step involves using Streamlit to visualize results for quicker insights.
 
-- run main.py for Gemini response [uncomment API line, and put your gemini-pro API]
+## **Backend Process**
 
-- The above steps were the backend
+1. **Data Extraction and Zipping:**
+   - **Go to the `data_processing` directory.**
+   - **Run:** `1_extra_and_zip.py`
+   - **Output:** This will create a zip file for each ticker.
 
-- To automate it all, run python app.py [it will create a interface for fast analysis]
+2. **Merge and Normalize:**
+   - **Run:** `2_merge_and_normalize.py` using the zip file created in step 1.
+   - **Repeat:** Perform this step for each ticker separately.
+   - **Output:** Generates merged files that are ready for analysis.
+
+3. **Store Processed Files:**
+   - **Save:** Place the merged files inside the `documents` directory in `.txt` format.
+
+4. **Load Data and Create Embeddings:**
+   - **Run:** `load_data.py`
+   - **Uncomment:** The API line, and provide your `gemini-pro` API key.
+   - **Note:** This step involves file splitting and the creation of embeddings.
+
+5. **Analyze Data with Gemini:**
+   - **Run:** `main.py`
+   - **Uncomment:** The API line, and provide your `gemini-pro` API key.
+
+6. **Automation with Streamlit:**
+   - **Run:** `app.py` using Streamlit.
+   - **Output:** This creates an interface for fast analysis.
+
+## **Getting Started**
+
+- **Clone the Repository:**
+  ```bash
+  git clone https://github.com/your-username/your-repository.git
+
+**Install Dependencies:**
+pip install -r requirements.txt
+
+**Run app locally:**
+streamlit run app.py
+
+If you wish to contribute to this project, please create a pull request or raise an issue to discuss improvements.
+
+
 
