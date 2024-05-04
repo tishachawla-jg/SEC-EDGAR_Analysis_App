@@ -46,7 +46,7 @@ This repository contains a streamlined workflow for processing, merging, normali
 
 - **Clone the Repository:**
   ```bash
-  git clone https://github.com/your-username/your-repository.git
+  git clone https://github.com/tishachawla-jg/SEC-EDGAR_Analyis_App.git
 
 **Install Dependencies:**
 pip install -r requirements.txt
