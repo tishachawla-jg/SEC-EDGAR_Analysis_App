@@ -1,7 +1,7 @@
 # SEC-EDGAR_Analyis_App
 
 
-# Data Processing and Analysis Workflow
+# Workflow
 
 ## **Overview**
 
