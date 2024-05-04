@@ -15,23 +15,25 @@ This repository contains a streamlined workflow for processing, merging, normali
    - **Output:** This will create a zip file for each ticker.
 
 2. **Merge and Normalize:**
+   - **Go to the `data_processing` directory.**
    - **Run:** `2_merge_and_normalize.py` using the zip file created in step 1.
-   - **Repeat:** Perform this step for each ticker separately.
-   - **Output:** Generates merged files that are ready for analysis.
 
-3. **Store Processed Files:**
+- **Repeat:** Perform this step for each ticker separately.
+- **Output:** Generates merged and cleaned files that are ready for analysis.
+
+4. **Store Processed Files:**
    - **Save:** Place the merged files inside the `documents` directory in `.txt` format.
 
-4. **Load Data and Create Embeddings:**
+5. **Load Data and Create Embeddings:**
    - **Run:** `load_data.py`
    - **Uncomment:** The API line, and provide your `gemini-pro` API key.
    - **Note:** This step involves file splitting and the creation of embeddings.
 
-5. **Analyze Data with Gemini:**
+6. **Analyze Data with Gemini:**
    - **Run:** `main.py`
    - **Uncomment:** The API line, and provide your `gemini-pro` API key.
 
-6. **Automation with Streamlit:**
+7. **Automation with Streamlit:**
    - **Run:** `app.py` using Streamlit.
    - **Output:** This creates an interface for fast analysis.
 
