@@ -6,7 +6,7 @@ import google.generativeai as genai
 import chromadb
 from chromadb.utils import embedding_functions
 import os
-os.environ["GOOGLE_API_KEY"]="AIzaSyBJ2q-LD03Dy6aVQ1AQZp8HMKiWhmTkKoY"
+#os.environ["GOOGLE_API_KEY"]=""
 
 model = genai.GenerativeModel("gemini-pro")
 
