@@ -1,13 +1,13 @@
 # SEC-EDGAR_Analyis_App
 
 
-- first merge and normalize your sec_edgar files for a ticker[e.g. for 3 tickers, 3 normalized + merged files]
+- The first task is to process the data, Go to the data_processing directory, first run 1_extra_and_zip.py, and use the zip file to run 2_merge_and_normalize.py. Do this for all tickers separately[e.g. for 3 tickers, 3 merged files]
 
 - Put those inside documents directory in .txt format
 
-- run python load_data.py [file splitting and creation of embeddings happens here]
+- run python load_data.py [uncomment API line, and put your gemini-pro API] (file splitting and creation of embeddings happens here)
 
-- run main.py for gemini response
+- run main.py for Gemini response [uncomment API line, and put your gemini-pro API]
 
 - The above steps were the backend
 
