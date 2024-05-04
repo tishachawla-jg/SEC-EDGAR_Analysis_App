@@ -2,7 +2,8 @@ import streamlit as st
 import json
 import plotly.express as px
 import pandas as pd
-import main as backend 
+import main as backend  # Import your backend code with an alias
+import os
 
 # Visualization Functions
 
@@ -21,7 +22,7 @@ def visualize_bar_graph(df, x_label, y_label):
         st.error(f"Error generating bar graph: {e}")
 
 def visualize_line_chart(df, x_label, y_label):
-    """Generating a line chart from the DataFrame with specified x and y labels."""
+    """Generate a line chart from the DataFrame with specified x and y labels."""
     try:
         fig = px.line(
             df,
@@ -35,7 +36,7 @@ def visualize_line_chart(df, x_label, y_label):
         st.error(f"Error generating line chart: {e}")
 
 def visualize_scatter_plot(df, x_label, y_label):
-    """Generating a scatter plot from the DataFrame with specified x and y labels."""
+    """Generate a scatter plot from the DataFrame with specified x and y labels."""
     try:
         fig = px.scatter(
             df,
@@ -49,7 +50,7 @@ def visualize_scatter_plot(df, x_label, y_label):
         st.error(f"Error generating scatter plot: {e}")
 
 def visualize_histogram(df, x_label):
-    """Generating a histogram from the DataFrame with the specified x label."""
+    """Generate a histogram from the DataFrame with the specified x label."""
     try:
         fig = px.histogram(
             df,
@@ -126,11 +127,19 @@ def process_json_to_dataframe(json_data):
 # Main App
 
 def app_main():
-    st.title('Gemini Response Explorer')
+    # Get list of available ticker files
+    documents_directory = "documents"
+    available_tickers = [f for f in os.listdir(documents_directory) if f.endswith('.txt')]
+
+    # Streamlit app layout
+    st.title("SEC-EDGAR Analysis App")
+    selected_ticker = st.selectbox('Select a ticker file:', available_tickers)
     query = st.text_input('Enter your query')
+
     if st.button('Get Response'):
-        context = []  # Populate this with relevant context data
-        response = backend.get_gemini_response(query, context)  # Reference the function correctly
+        # Set specific file argument
+        context = []  # You may include context here
+        response = backend.get_gemini_response(query, context)
         st.subheader('Gemini Response (Raw):')
         st.write(response)
 
