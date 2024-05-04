@@ -9,7 +9,7 @@ import google.generativeai as genai
 from llama_index.core.node_parser import SentenceSplitter
 import os
 import sys
-os.environ["GOOGLE_API_KEY"]="AIzaSyBJ2q-LD03Dy6aVQ1AQZp8HMKiWhmTkKoY"
+#os.environ["GOOGLE_API_KEY"]=""
 def split_large_text(text, max_length=9500):
     """
     Splits a large text into smaller parts, each with a length less than max_length.
