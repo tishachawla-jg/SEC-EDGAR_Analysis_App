@@ -67,7 +67,7 @@ pip install -r requirements.txt
 **Run app locally:**
 streamlit run app.py
 
-If you wish to contribute to this project, please create a pull request or raise an issue to discuss improvements.
+*If you wish to contribute to this project, please create a pull request or raise an issue to discuss improvements.*
 
 
 
