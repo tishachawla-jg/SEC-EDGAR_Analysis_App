@@ -80,5 +80,7 @@ streamlit run app.py
 
 **NOTE TO APP USERS - Make sure to cross check the answers for potential hallucinations!!!**
 
-
+*Referenes -* 
+- **https://github.com/chroma-core/chroma/tree/main/examples/gemini**
+- **https://ai.google.dev/gemini-api/docs/get-started/python**
 
