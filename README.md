@@ -13,7 +13,7 @@ This repository contains a Retrieval-augmented generation (RAG) app for a stream
 
 <img width="420" alt="image" src="https://github.com/tishachawla-jg/SEC-EDGAR_Analyis_App/assets/76087547/bb8bc956-fb13-47ed-b19e-07e559410b17">
 
-. There was a significant increase in operating income as revenue grew from $257.64 billion to $280.38 billion, reflecting a positive correlation between revenue and profitability.
+The illustrations show a significant increase in operating income as revenue grew from $257.64 billion to $280.38 billion, reflecting a positive correlation between revenue and profitability.
 
 **Output 2 :chart_with_upwards_trend: -**
 
