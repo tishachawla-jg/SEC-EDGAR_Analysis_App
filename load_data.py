@@ -9,7 +9,7 @@ import google.generativeai as genai
 from llama_index.core.node_parser import SentenceSplitter
 import os
 import sys
-#!!!Uncomment the below line
+#Uncomment below line
 #os.environ["GOOGLE_API_KEY"]=""
 def split_large_text(text, max_length=9500):
     """
