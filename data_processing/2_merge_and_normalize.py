@@ -27,7 +27,7 @@ def preprocess_and_extract_text(content):
 def merge_full_submission_texts_to_json(zip_path, output_json_file):
     with zipfile.ZipFile(zip_path, 'r') as z:
         all_folders = [item for item in z.namelist() if item.endswith('/')]
-        folders = [f for f in all_folders if f.startswith('AAPL/10-K/') and f.count('/') == 3]
+        folders = [f for f in all_folders if f.startswith('MSFT/10-K/') and f.count('/') == 3]
         merged_texts = {}
 
         for folder in folders:
@@ -42,10 +42,16 @@ def merge_full_submission_texts_to_json(zip_path, output_json_file):
         with open(output_json_file, 'w') as f_out:
             json.dump(merged_texts, f_out, indent=4)
 
-# Usage
 zip_path = '/content/filings.zip'
 output_json_file = 'extracted_html_content.json'
+
+# Assuming this function merges the full submission texts into JSON
 merge_full_submission_texts_to_json(zip_path, output_json_file)
+
+# Read the JSON file content
+with open(output_json_file, 'r') as json_file:
+    data = json.load(json_file)
+
 # Write the JSON data to a .txt file in pretty-printed form
 with open('extracted_html_content.txt', 'w') as txt_file:
     json.dump(data, txt_file, indent=4)
