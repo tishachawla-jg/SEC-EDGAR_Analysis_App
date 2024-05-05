@@ -27,7 +27,7 @@ This repository contains a Retrieval-augmented generation (RAG) app for a stream
 
 - **Streamlit**: Enables easy deployment and offers robust visualization features.
 
-
+**NOTE** - Text Analysis of LLM can be accessed from the pdf 'INSIGHTS WITH TEXT RESPONSES'.
 
 ## **Backend Process**
 
