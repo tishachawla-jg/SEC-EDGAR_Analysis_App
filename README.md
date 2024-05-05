@@ -22,6 +22,9 @@ This repository contains a Retrieval-augmented generation (RAG) app for a stream
 
 ## **Backend Process**
 
+![image](https://github.com/tishachawla-jg/SEC-EDGAR_Analyis_App/assets/76087547/64e2ff1a-215e-450b-8687-d7a855d2d2f5)
+
+
 1. **Data Extraction and Zipping:**
    - **Go to the `data_processing` directory.**
    - **Run:** `1_extra_and_zip.py`
