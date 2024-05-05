@@ -78,5 +78,7 @@ streamlit run app.py
 
 *If you wish to contribute to this project, please create a pull request or raise an issue to discuss improvements.*
 
+**NOTE FOR APP USERS - Make sure to check the answers for potential hallucinations!!!**
+
 
 
