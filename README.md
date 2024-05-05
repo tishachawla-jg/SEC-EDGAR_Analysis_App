@@ -31,7 +31,7 @@ This repository contains a Retrieval-augmented generation (RAG) app for a stream
 
 **NOTE** - Text Analysis of LLM can be accessed from the pdf 'INSIGHTS WITH TEXT RESPONSES'.
 
-## **Backend Process**
+## **Backend Process :file_folder:**
 
 ![image](https://github.com/tishachawla-jg/SEC-EDGAR_Analyis_App/assets/76087547/64e2ff1a-215e-450b-8687-d7a855d2d2f5)
 
