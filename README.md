@@ -7,7 +7,7 @@
 
 This repository contains a Retrieval-augmented generation (RAG) app for a streamlined workflow for processing, merging, normalizing, and analyzing SEC_EDGAR  data with Large Language Models [LLM API used - Gemini pro model]. The final step involves using Streamlit to visualize the LLM results for quicker financial insights of the SEC_EDGAR tickers employed [tickers used - MSFT, AAPL, GOOGL].
 
-**Demp**-https://drive.google.com/file/d/1eMftidtmhJIFWohNr3so_RnMjGIrgeee/view?usp=sharing
+**Demo [SEE HERE]**-https://drive.google.com/file/d/1eMftidtmhJIFWohNr3so_RnMjGIrgeee/view?usp=sharing
 
 **Output 1-**
 
