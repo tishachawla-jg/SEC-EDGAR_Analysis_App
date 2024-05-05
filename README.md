@@ -1,4 +1,4 @@
-# SEC-EDGAR Analysis App :round_pushpin: -
+# SEC-EDGAR Analysis App :round_pushpin: 
 
 
 # Workflow
