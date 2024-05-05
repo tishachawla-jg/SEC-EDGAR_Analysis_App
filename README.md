@@ -1,4 +1,4 @@
-# SEC-EDGAR_Analyis_App
+# SEC-EDGAR Analysis App :)
 
 
 # Workflow
