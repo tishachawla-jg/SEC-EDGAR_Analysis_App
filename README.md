@@ -9,11 +9,11 @@ This repository contains a Retrieval-augmented generation (RAG) app for a stream
 
 **Demo [SEE HERE] :link:**-https://drive.google.com/file/d/1eMftidtmhJIFWohNr3so_RnMjGIrgeee/view?usp=sharing
 
-**Output 1-**
+**Output 1 :chart_with_downwards_trend:-**
 
 <img width="370" alt="image" src="https://github.com/tishachawla-jg/SEC-EDGAR_Analyis_App/assets/76087547/bb8bc956-fb13-47ed-b19e-07e559410b17">
 
-**Output 2 -**
+**Output 2 :chart_with_upwards_trend: -**
 
 <img width="330" alt="image" src="https://github.com/tishachawla-jg/SEC-EDGAR_Analyis_App/assets/76087547/0173c863-ab4a-4410-8c44-5bff84fa06ce">
 <img width="450" alt="image" src="https://github.com/tishachawla-jg/SEC-EDGAR_Analyis_App/assets/76087547/61151799-c65d-4cf9-b359-63132ed530d6">
