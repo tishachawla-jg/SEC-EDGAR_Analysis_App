@@ -25,6 +25,8 @@ This repository contains a Retrieval-augmented generation (RAG) app for a stream
 
 - **Gemini-Pro**: A comprehensive data analysis and insights LLM suited for our RAG app. Offers free access up to a certain number of requests. Additionally, I explored other open-source LLMs like StabilityAI, Camel-AI, and Zephyr 7B. Gemini-Pro provides versatile output formats, including structured JSON/tabular data and well-tuned text analysis, making it highly suitable for our app.
 
+-**Plotly**: Plotly provides interactive and customizable visualizations for our app after converting .json responses to a dataframe.
+
 - **Streamlit**: Enables easy deployment and offers robust visualization features.
 
 **NOTE** - Text Analysis of LLM can be accessed from the pdf 'INSIGHTS WITH TEXT RESPONSES'.
