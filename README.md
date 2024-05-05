@@ -11,9 +11,9 @@ This repository contains a Retrieval-augmented generation (RAG) app for a stream
 
 **Output 1 :chart_with_downwards_trend:-**
 
-<img width="370" alt="image" src="https://github.com/tishachawla-jg/SEC-EDGAR_Analyis_App/assets/76087547/bb8bc956-fb13-47ed-b19e-07e559410b17">
+<img width="420" alt="image" src="https://github.com/tishachawla-jg/SEC-EDGAR_Analyis_App/assets/76087547/bb8bc956-fb13-47ed-b19e-07e559410b17">
 
-This shows Google's Revenue increasing with income.
+. There was a significant increase in operating income as revenue grew from $257.64 billion to $280.38 billion, reflecting a positive correlation between revenue and profitability.
 
 **Output 2 :chart_with_upwards_trend: -**
 
@@ -22,7 +22,7 @@ This shows Google's Revenue increasing with income.
 <img width="450" alt="image" src="https://github.com/tishachawla-jg/SEC-EDGAR_Analyis_App/assets/76087547/61151799-c65d-4cf9-b359-63132ed530d6">
 <img width="322" alt="image" src="https://github.com/tishachawla-jg/SEC-EDGAR_Analyis_App/assets/76087547/a044385c-551b-4904-8e0a-a7d3db54a8cd">
 
-This shows an increment in Apple's Dividends over the years.
+The illustrations show the trend of dividends declared per share over three years, showing a consistent increase from 2021 to 2023. The dividends rose from approximately $0.88 to about $0.94 per share, demonstrating a steady and positive growth in dividends declared over time.
 
 ## **Tech Stack :computer:**
 
