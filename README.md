@@ -22,6 +22,8 @@ This shows Google's Revenue increasing with income.
 <img width="450" alt="image" src="https://github.com/tishachawla-jg/SEC-EDGAR_Analyis_App/assets/76087547/61151799-c65d-4cf9-b359-63132ed530d6">
 <img width="322" alt="image" src="https://github.com/tishachawla-jg/SEC-EDGAR_Analyis_App/assets/76087547/a044385c-551b-4904-8e0a-a7d3db54a8cd">
 
+This shows an increment in Apple's Dividends over the years.
+
 ## **Tech Stack :computer:**
 
 - **Python**: Our primary programming language for application development.
