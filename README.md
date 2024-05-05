@@ -41,7 +41,7 @@ This repository contains a Retrieval-augmented generation (RAG) app for a stream
 
 2. **Merge and Normalize:**
    - **Go to the `data_processing` directory.**
-   - **Run:** `2_merge_and_normalize.py` using the zip file created in step 1.
+   - **Run:** `2_merge_and_normalize.py` using the zip file created in step 1. Here we first convert to .json then .txt for faster processing of embeddings.
 
 - **Repeat:** Perform step 1 and 2 for each ticker separately.
 - **Output:** Generates merged and cleaned files that are ready for analysis.
