@@ -7,7 +7,7 @@ def extract_html_content(text_content):
     """ Extracts and cleans HTML content within <TEXT> tags using BeautifulSoup. """
     try:
         soup = BeautifulSoup(text_content, 'html.parser')
-        # Extract text from HTML, you could adjust what you extract (e.g., get specific elements)
+        # Extract text from HTML
         return soup.get_text(separator=' ', strip=True)
     except Exception as e:
         return f"Failed to parse HTML: {str(e)}"
