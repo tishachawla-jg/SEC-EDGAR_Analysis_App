@@ -10,7 +10,7 @@ This repository contains a Retrieval-augmented generation (RAG) app for a stream
 
 **Output 1-**
 
-<img width="197" alt="image" src="https://github.com/tishachawla-jg/SEC-EDGAR_Analyis_App/assets/76087547/bb8bc956-fb13-47ed-b19e-07e559410b17">
+<img width="300" alt="image" src="https://github.com/tishachawla-jg/SEC-EDGAR_Analyis_App/assets/76087547/bb8bc956-fb13-47ed-b19e-07e559410b17">
 
 **Output 2 -**
 
