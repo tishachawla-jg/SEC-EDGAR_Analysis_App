@@ -10,7 +10,7 @@ This repository contains a Retrieval-augmented generation (RAG) app for a stream
 <img width="523" alt="image" src="https://github.com/tishachawla-jg/SEC-EDGAR_Analyis_App/assets/76087547/61151799-c65d-4cf9-b359-63132ed530d6">
 <img width="322" alt="image" src="https://github.com/tishachawla-jg/SEC-EDGAR_Analyis_App/assets/76087547/a044385c-551b-4904-8e0a-a7d3db54a8cd">
 
-### **Tech Stack**
+## **Tech Stack**
 
 - **Python**: Our primary programming language for application development.
 
