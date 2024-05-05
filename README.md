@@ -23,7 +23,7 @@ This repository contains a streamlined workflow for processing, merging, normali
    - **Go to the `data_processing` directory.**
    - **Run:** `2_merge_and_normalize.py` using the zip file created in step 1.
 
-- **Repeat:** Perform this step for each ticker separately.
+- **Repeat:** Perform step 1 and 2 for each ticker separately.
 - **Output:** Generates merged and cleaned files that are ready for analysis.
 
 4. **Store Processed Files:**
