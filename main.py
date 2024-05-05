@@ -6,7 +6,8 @@ import google.generativeai as genai
 import chromadb
 from chromadb.utils import embedding_functions
 import os
-os.environ["GOOGLE_API_KEY"]="AIzaSyBJ2q-LD03Dy6aVQ1AQZp8HMKiWhmTkKoY"
+#Uncomment below line !!!!!
+#os.environ["GOOGLE_API_KEY"]="
 
 model = genai.GenerativeModel("gemini-pro")
 
@@ -29,13 +30,13 @@ def build_prompt(query: str, context: List[str]) -> str:
 
     base_prompt = {
         "content": "I am going to ask you a question, which I would like you to answer"
-        " based mostly on the provided context and  external knowledge if no direct context is there."
+        " based mostly on the provided context"
         "Only provide response in text form as analyis or json format only [for json response instructions : with proper string headers/columns(with  metric like %, billion etc) and all numerical values/records/rows (dont put billion, dollor sign etc) (if table is there)] not both, no the reponse format"
         'json format : { "X title": ["x1", "x2", "x3", ...], "Y title": ["y1", "y2", "y3", ...] }'
-        #"text format : Break your answer up into nicely readable paragraphs",
+        "text format : Break your answer up into nicely readable paragraphs",
     }
     user_prompt = {
-        "content": f" The question is '{query}'. Here is the context you have but incase no direct context is there get help of other external knowledge:"
+        "content": f" The question is '{query}'. Here is the context you have :"
         f'{(" ").join(context)}',
     }
 
