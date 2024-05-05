@@ -16,6 +16,8 @@ This repository contains a Retrieval-augmented generation (RAG) app for a stream
 **Output 2 :chart_with_upwards_trend: -**
 
 <img width="330" alt="image" src="https://github.com/tishachawla-jg/SEC-EDGAR_Analyis_App/assets/76087547/0173c863-ab4a-4410-8c44-5bff84fa06ce">
+
+Analysis : Revenue increasing
 <img width="450" alt="image" src="https://github.com/tishachawla-jg/SEC-EDGAR_Analyis_App/assets/76087547/61151799-c65d-4cf9-b359-63132ed530d6">
 <img width="322" alt="image" src="https://github.com/tishachawla-jg/SEC-EDGAR_Analyis_App/assets/76087547/a044385c-551b-4904-8e0a-a7d3db54a8cd">
 
